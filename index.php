@@ -7,14 +7,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bit Blog</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="<?= asset('assets/css/bootstrap.min.css') ?>" media="all" type="text/css">
     <link rel="stylesheet" href="<?= asset('assets/css/style.css') ?>" media="all" type="text/css">
 </head>
 <body>
 <section id="app">
 
-    <?php require_once "layouts/top-nav.php"?>
+    <?php require_once "includers/top-nav.php"?>
 
     <section class="container my-5">
         <!-- Example row of columns -->
