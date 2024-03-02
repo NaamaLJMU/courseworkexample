@@ -1,13 +1,13 @@
 
 <section class="sidebar">
     <section class="sidebar-link">
-        <a href="<?= url('panel') ?>">panel</a>
+        <a href=>panel</a>
     </section>
     <section class="sidebar-link">
-        <a href="<?= url('panel/category') ?>">category</a>
+        <a href=>category</a>
     </section>
     <section class="sidebar-link">
-        <a href="<?= url('panel/post') ?>">post</a>
+        <a href=>post</a>
     </section>
 </section>
 
