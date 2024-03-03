@@ -1,9 +1,6 @@
 <?php
      require_once '../../functions/helpers.php';
      require_once '../../functions/pdo_connection.php';
-     require_once '../../functions/auth.php';
-
-
 
      if(isset($_POST['name']) && $_POST['name'] !== '') 
      {    
@@ -21,7 +18,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PHP panel</title>
+    <title>Create Category</title>
     <link rel="stylesheet" href="<?= asset('assets/css/bootstrap.min.css') ?>" media="all" type="text/css">
     <link rel="stylesheet" href="<?= asset('assets/css/style.css') ?>" media="all" type="text/css">
 </head>
@@ -38,7 +35,7 @@
                 </section>
                 <section class="col-md-10 pt-3">
 
-                    <form action="<?= url('panel/category/create.php') ?>" method="post">
+                    <form action="<?= url('dashboard/category/create.php') ?>" method="post">
                         <section class="form-group">
                             <label for="name">Name</label>
                             <input type="text" class="form-control" name="name" id="name" placeholder="name ...">
@@ -58,5 +55,4 @@
     <script src="<?= asset('assets/js/jquery.min.js') ?>"></script>
      <script src="<?= asset('assets/js/bootstrap.min.js') ?>"></script>
 </body>
-
 </html>
