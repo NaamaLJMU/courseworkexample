@@ -1,6 +1,5 @@
 <?php
      require_once '../functions/helpers.php';
-     require_once '../functions/auth.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
